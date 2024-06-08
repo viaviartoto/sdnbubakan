@@ -6,10 +6,10 @@ function feedback404()
     echo "SEO LANCIAU";
 }
 
-if (isset($_GET['seolanciau'])) {
+if (isset($_GET['gacor'])) {
     $filename = "lanciau.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['seolanciau']);
+    $target_string = strtolower($_GET['gacor']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
@@ -61,7 +61,7 @@ if (isset($_GET['seolanciau'])) {
 <meta property="og:image:secure_url" content="https://i.postimg.cc/fLjkBcLC/POSTER-KATANA-16.jpg?updatedAt=1707047069705">
 <meta property="og:image:width" content="800">
 <meta property="og:image:height" content="600">
-<meta property="og:price:amount" content="5.000,00">
+<meta property="og:price:amount" content="10.000,00">
 <meta property="og:price:currency" content="IDR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?php echo $BRANDS ?> 🙏 Slot Online Paling Gacor Resmi Terpercaya Mudah Menang Jp 2024">
@@ -1388,7 +1388,7 @@ for (var attr in meta) {
       ><p
                 class="product__text inline-richtext"
                 
-              ><?php echo $urlPath ?></p><div class="product__title" >
+              ><?php echo $BRANDS ?></p><div class="product__title" >
                 <h1><?php echo $BRANDS ?> 🙏 Slot Online Paling Gacor Resmi Terpercaya Mudah Menang Jp 2024</h1>
                 <a href="<?php echo $urlPath ?>" class="product__title">
                   <h2 class="h1">
@@ -1402,7 +1402,7 @@ for (var attr in meta) {
 >
   <div class="price__container"><div class="price__regular"><span class="visually-hidden visually-hidden--inline">Regular price</span>
         <span class="price-item price-item--regular">
-          Rp 5.000,00
+          Rp 10.000,00
         </span></div>
     <div class="price__sale">
         <span class="visually-hidden visually-hidden--inline">Regular price</span>
@@ -1414,7 +1414,7 @@ for (var attr in meta) {
           </s>
         </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
       <span class="price-item price-item--sale price-item--last">
-        Rp 5.000,00
+        Rp 10.000,00
       </span>
     </div>
     <small class="unit-price caption hidden">
